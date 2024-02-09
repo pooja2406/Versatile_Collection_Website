@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 50px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.menu {
+    z-index: 999;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .share i.fa {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(30, 199, 214);
+    border-radius: 25%;
+}
+.share:hover{
+    color: #f9fafb;
+}
+
+.menu .share:hover.bottom .submenu li:nth-child(1) {
+    opacity: 1;
+    top: 32px;
+    transform: rotate(0deg);
+    /* border-top: 1px dashed #ccc; */
+    transition-delay: 0.08s;
+}
+
+.menu .share:hover.bottom .submenu li:nth-child(2) {
+    opacity: 1;
+    top: 64px;
+    transform: rotate(0deg);
+    /* border-top: 1px dashed #ccc; */
+    transition-delay: 0.16s;
+}
+
+.menu .share:hover.bottom .submenu li:nth-child(3) {
+    opacity: 1;
+    top: 96px;
+    transform: rotate(0deg);
+    /* border-top: 1px dashed #ccc; */
+    transition-delay: 0.24s;
+}
+
+.menu .share:hover.bottom .submenu li:nth-child(4) {
+    opacity: 1;
+    top: 128px;
+    transform: rotate(0deg);
+    /* border-top: 1px dashed #ccc; */
+    transition-delay: 0.32s;
+}
+
+.menu .share:hover.bottom .submenu li:nth-child(5) {
+    opacity: 1;
+    top: 250px;
+    transform: rotate(0deg);
+    /* border-top: 1px dashed #ccc; */
+    transition-delay: 0.4s;
+    border-radius: 10px;
+}
+
+.menu .share:hover.top .submenu li:nth-child(1) {
+    opacity: 1;
+    top: -51px;
+    transition-delay: 0.08s;
+    transform: rotateY(0deg);
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.menu .share:hover.top .submenu li:nth-child(2) {
+    opacity: 1;
+    top: -102px;
+    transition-delay: 0.16s;
+    transform: rotateY(0deg);
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.menu .share:hover.top .submenu li:nth-child(3) {
+    opacity: 1;
+    top: -153px;
+    transition-delay: 0.24s;
+    transform: rotateY(0deg);
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.menu .share:hover.top .submenu li:nth-child(4) {
+    opacity: 1;
+    top: -204px;
+    transition-delay: 0.32s;
+    transform: rotateY(0deg);
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.menu .share:hover.top .submenu li:nth-child(5) {
+    opacity: 1;
+    top: -255px;
+    transition-delay: 0.4s;
+    transform: rotateY(0deg);
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.menu .submenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu .submenu li {
+    transition: all ease-in-out 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+.menu .submenu li a {
+    color: #010000;
+    height: auto;
+}
+
+.menu .submenu li a:hover i.fa {
+    color: #fff;
+}
+
+.menu .submenu li a:hover.facebook i.fa {
+    background-color: #3b5999;
+}
+
+.menu .submenu li a:hover.twitter i.fa {
+    background-color: #55acee;
+}
+
+.menu .submenu li a:hover.googlePlus i.fa {
+    background-color: #dd4b39;
+}
+
+.menu .submenu li a:hover.instagram i.fa {
+    background-color: #e4405f;
+}
+.menu.topLeft {
+    top: 10px;
+    right: 10px;
+}

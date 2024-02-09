@@ -1,0 +1,24 @@
+.two {
+    background-color: aliceblue;
+    display: block;
+    margin: 0;
+    padding-top: 0.6%;
+    padding-bottom: 1%;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    border-radius: 5px ;
+    border: 10px solid rgb(30, 199, 214);
+    background: rgb(206, 241, 244);
+    
+}
+.typetitle{
+    font-family: bold;
+}
+.type1 a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    /* font-size: 1.1rem; */
+}

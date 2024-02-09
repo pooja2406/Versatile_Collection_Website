@@ -1,0 +1,136 @@
+.article {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    background-color: rgb(30, 199, 214);
+}
+.position {
+    border-radius: 50px;
+    margin-top: 5px;
+    /* background-color: brown; */
+}
+.sketch {
+    padding-right: 20%;
+    padding-left: 20%;
+    width: 100%;
+    background-color: rgb(67, 65, 65);
+}
+
+.article_header {
+    width: 100%;
+    padding: 1%;
+    background-color: black;
+    color: aliceblue;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.profile_img {
+    
+    margin-left: 2%;
+    border-radius: 50%;
+    float: left;
+    height:5vh;
+}
+.username{
+    padding-top: 0.1;
+    padding-left: 0.5%;
+    font-size: 1.5rem;
+}
+.article_footer {
+    width: 100%;
+    padding: 1%;
+    background-color: black;
+    color: aliceblue;
+    height: auto;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+@media screen and (min-width:768px){
+    .article_header{
+        height: auto;
+    }
+    .profile_img{
+        height: 6vh;
+    }
+    .sketch{
+        height: 50vh;
+    }
+    .article_footer{
+        height: auto;
+    }
+}
+/* like */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+/* VARIABLES - START */
+/* COLORS */
+/* DIMENSIONS */
+/* FONTS */
+/* VARIABLES - END */
+/* COMMONS - START */
+.flex-center,
+.wrapper,
+.wrapper .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* COMMONS - END */
+/* STYLES - START */
+
+.wrapper .button-container {
+    height: 225px;
+    width: 325px;
+    background-color: #7eccc7;
+    border-radius: 10px;
+}
+
+.button {
+    /* height: 50px;*/
+    margin-left: 10px;
+    width: 60px; 
+    /* background-color: #fefefe; */
+    border-radius: 5px;
+    /* padding: 12.5px; */
+    cursor: pointer;
+}
+
+.content .icon {
+    font-size: 25px;
+    color: #ea4a87;
+}
+
+.content .icon.fa {
+    display: none;
+}
+
+.content .text {
+    font-size: 25px;
+    color: #2f3537;
+}
+
+.content .text.like {
+    margin-left: 10px;
+}
+
+.content .text.d {
+    opacity: 0;
+    display: inline-block;
+    transform: translateX(12px);
+}
+
+.content .text.number {
+    margin-left: 10px;
+    color: #7a7c81;
+}
+
+/* STYLES - END */
